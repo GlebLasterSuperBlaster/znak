@@ -1,0 +1,464 @@
+.header{
+    display: flex;
+    width: 100%;
+    height: 125px;
+    background:  url("../img/bg_top.svg") no-repeat;
+    background-size: 100%;
+
+}
+
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container-logo-label{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+
+}
+
+.label{
+    width: 65%;
+    flex-direction: row;
+    display: flex;
+    color: #ffffff;
+    font-family: "Iskra CYR - Medium";
+    font-size: 42px;
+    font-weight: 500;
+    margin-right: 212px;
+}
+
+.logo{
+    width: 75px;
+    height: 75px;
+    display: flex;
+    background:  url("../img/logo.svg") no-repeat;
+    background-size: 100%;
+    margin-left: 238px;
+    margin-right: 21px;
+
+}
+
+.text-write-review{
+    margin-top: 60px;
+    display: flex;
+    color: #414042;
+    font-family: "Iskra CYR - Medium";
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.container-write-review{
+    display: flex;
+    width: 940px;
+    margin: 0 auto;
+    flex-direction: column;
+
+}
+
+.border-write-review{
+    box-shadow: 0 7px 18px rgba(83, 83, 83, 0.04);
+    border-radius: 10px;
+    border: 1px solid rgba(151, 151, 151, 0.1);
+    background-color: #ffffff;
+    margin-top: 23px;
+}
+
+.text-review-mark{
+    display: flex;
+    color: #414042;
+    font-family: "Montserrat-bold";
+    font-size: 22px;
+    font-weight: 600;
+    margin: 30px 0 0 30px;
+}
+
+.label-review{
+    display: flex;
+    color: #414042;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 20px 0 0 30px;
+}
+
+.specialist-card{
+    display: flex;
+    flex-direction: row;
+    border-radius: 4px;
+    background-color: #f7f7f8;
+    margin: 20px 30px 0 30px;
+}
+
+.blue-box{
+    display: flex;
+    width: 4px;
+    height: 139px;
+    border-radius: 10px 0 0 10px;
+    background-color: #009dff;
+}
+
+.specialist-photo{
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+}
+
+.picture-specialist{
+    margin-top: 30px;
+    margin-left: 29px;
+    display: block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.picture-specialist:after{
+    content: '';
+    position: absolute;
+    top: 0; right: 0;
+    bottom: 0; left: 0;
+    background: url("../img/logo_mini.png") no-repeat scroll bottom right;
+}
+
+.description-specialist{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.specialist-name{
+    margin-top: 32px;
+    margin-bottom: 5px;
+    display: flex;
+    color: #414042;
+    font-family: "Montserrat Medium";
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.specialist-location{
+    display: flex;
+    color: #414042;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.specialist-description-services{
+    display: flex;
+    color: #414042;
+    font-family: "Montserrat Medium";
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.location-sign{
+    margin-right: 5px;
+}
+
+.container-text-on-rewiew{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 30px 5px 30px;
+}
+
+.container-text-under-rewiew{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0 5px 0;
+}
+
+.text-label-rewiew{
+    display: flex;
+    color: #666666;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.text-label-rewiew-count{
+    display: flex;
+    color: #414042;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    opacity: 0.5;
+}
+
+.star-style{
+    color: #009dff;
+}
+
+
+.rewiew-textarea{
+    width: 100%;
+    height: 140px;
+    border-radius: 2px;
+    border: 1px solid #dbdbdb;
+    color: #414042;
+    font-family: "Montserrat Medium";
+    font-size: 18px;
+    font-weight: 500;
+    text-indent: 5px;
+    resize: none;
+}
+
+.rewiew-textarea::placeholder{
+    opacity: 0.4;
+    color: #414042;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.fa-star{
+    color: #fcb01e;
+}
+
+.mark-number{
+    color: #fcb01e;
+    font-family: "Montserrat Semi Bold";
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+.container-select-and-button{
+    display: flex;
+    margin: 0 30px 0 30px;
+    flex-direction: column;
+}
+
+.textarea-direction{
+    display: flex;
+    width: 100%;
+}
+
+.select-and-button-direction{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.form-button{
+    width: 273px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #009dff;
+    color: #ffffff;
+    font-family: "Museo Sans Cyrl 500";
+    font-size: 16px;
+    border: 0;
+}
+
+.form-button:focus{
+    outline:none;
+}
+
+.mark-select {
+    width: 273px;
+    box-shadow: 0 7px 18px rgba(83, 83, 83, 0.04), 0 0 10px rgba(0, 0, 0, 0.15);
+    border-radius: 0 0 2px 2px;
+    border: 1px solid rgba(151, 151, 151, 0.1);
+    background-color: #ffffff;
+    color: #414042;
+    font-family: "Montserrat Medium";
+    font-size: 13px;
+    font-weight: 500;
+    padding-left: 15px;
+    position: relative;
+    display: inline-block;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.selected-element{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 140px;
+}
+
+.text-require-filds{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #666666;
+    margin: 10px 0 20px 0;
+}
+
+.prize-draw-conteiner{
+    background: url("../img/Group_8.svg") no-repeat,
+    url("../img/bg_prize.svg") no-repeat;
+    width: 940px;
+    height: 274px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.text-prize{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 30px;
+}
+
+.bold-text-prize{
+    color: #ffffff;
+    font-family: "Iskra CYR - Medium";
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 50px;
+    margin-bottom: 27px;
+
+}
+
+.text-prize-normal{
+    color: #ffffff;
+    font-family: "Montserrat Semi Bold";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 19px;
+}
+
+.link-text-prize{
+    color: #ffffff;
+    font-family: "Montserrat Semi Bold";
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.prize-link:visited{
+    color: #ffffff;
+}
+
+.picture-prize{
+    display: flex;
+    background: url("../img/im_airdrops.svg") no-repeat;
+    width: 309px;
+    height: 209px;
+    margin: 44px 36px 0 0;
+}
+
+.footer{
+    display: flex;
+    margin-top: 100px;
+    height: 88px;
+    background-color: #e6e7e8;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.footer-copyright{
+    display: flex;
+    opacity: 0.8;
+    color: #414042;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 8px;
+}
+
+.footer-text{
+    display: flex;
+    opacity: 0.8;
+    color: #414042;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 8px;
+}
+
+.footer-link{
+    opacity: 0.8;
+    color: #009dff;
+    font-family: "Montserrat Semi Bold";
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 8px;
+    text-decoration: underline;
+}
+
+.footer-link:visited{
+    color: #009dff;
+}
+
+@font-face {
+
+font-family: "Iskra CYR - Medium";
+src: url("../fonts/iskracyr-medium-webfont.woff") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Regular.woff") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+
+    font-family: "Montserrat-bold";
+    src: url("../fonts/montserratbold.woff") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+
+    font-family: "Montserrat Medium";
+    src: url("../fonts/montserrat_medium.woff") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+
+    font-family: "Montserrat Semi Bold";
+    src: url("../fonts/montserrat_semibold.woff") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+
+    font-family: "Museo Sans Cyrl 500";
+    src: url("../fonts/museosanscyrl-500.woff") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+
+
